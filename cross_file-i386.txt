@@ -1,5 +1,5 @@
 [binaries]
-rust = ['rustc', '--target=i686-unknown-linux-gnu', '-C', 'linker=/usr/lib/ccache/i686-linux-gnu-gcc']
+rust = ['rustc', '--target=i686-unknown-linux-gnu']
 c = '/usr/lib/ccache/i686-linux-gnu-gcc'
 cpp = '/usr/lib/ccache/i686-linux-gnu-g++'
 ar = '/usr/bin/i686-linux-gnu-ar'
