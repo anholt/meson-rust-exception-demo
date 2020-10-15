@@ -1,5 +1,5 @@
 [binaries]
-rust = ['rustc', '--target=i686-unknown-linux-gnu']
+rust = 'rustc'
 c = '/usr/lib/ccache/i686-linux-gnu-gcc'
 cpp = '/usr/lib/ccache/i686-linux-gnu-g++'
 ar = '/usr/bin/i686-linux-gnu-ar'
@@ -10,6 +10,7 @@ pkgconfig = '/usr/bin/i686-linux-gnu-pkg-config'
 
 [properties]
 needs_exe_wrapper = False
+rust_args = '--target=i686-unknown-linux-gnu'
 
 [host_machine]
 system = 'linux'
